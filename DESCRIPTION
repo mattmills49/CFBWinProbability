@@ -1,0 +1,12 @@
+Package: CFBWinProbability
+Title: Create and Test a CFB Win Probability Model
+Version: 0.0.0.9000
+Authors@R: person("Matt", "Mills", email = "first.last@example.com", role = c("aut", "cre"))
+Description: Contains functions to transform the CFB Stats data into a structure for use to train and validate a Win Probability Model
+Depends: R (>= 3.1.3)
+License: What license is it under?
+LazyData: true
+Imports:
+  dplyr,
+  tidyr,
+  readr
