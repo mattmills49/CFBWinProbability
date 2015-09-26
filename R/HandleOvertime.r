@@ -1,10 +1,16 @@
 #' Structure plays correctly for games that went into overtime
 #' 
 #' This function takes in overtime plays and gets them in the same structure as
-#' plays in regulation. This function is called from the DataPrep function. 
+#' plays in regulation. This function is called from the DataPrep function. You 
+#' really won't need this function on it's own ever. 
 #' @param overtime a data frame containing overtime plays from the CFB Stats play.csv file
 #' @return A data frame with the overtime plays. 
 #' @examples
+#' plays <- readin("play", 2010:2014)
+#' newtime <- AddTime(plays)
+#' cleandata <- DataPrep(newtime, 2010:2014, return.ot = T)
+#' head(cleandata[[1]])
+#' head(cleandata[[2]])
 
 
 HandleOvertime <- function(overtime){
