@@ -9,4 +9,5 @@ LazyData: true
 Imports:
   dplyr,
   tidyr,
-  readr
+  readr,
+  magrittr
